@@ -13,15 +13,15 @@ It takes JPG images by timelapse/PIR trigger and stores into its microSD.And the
 # Usage
 You must place 'Pref.json' into root of microSD.The elements are;  
 * Key:"interval"
-** It has a number object. It describes interval of timelapse by microsecond.
+	* It has a number object. It describes interval of timelapse by microsecond.
 * Key:"type"
-** It has a string object. It describes the what trigger is enabled.
+	* It has a string object. It describes the what trigger is enabled.
 
 * An example of 'triggered by interval & PIR, and capturing each 1sec'
-    `{`
-    `  {"interval":1000000}`
-    `  {"type":"both"}`
-    `}`
+	{
+	  {"interval":1000000}
+	  {"type":"both"}
+	}
 
 # License
 "UnitCamS3_timelapse_pir" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
