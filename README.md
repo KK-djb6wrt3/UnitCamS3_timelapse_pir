@@ -14,10 +14,10 @@ It takes JPG images by timelapse/PIR trigger and stores into its microSD.And the
 You must place 'Pref.json' into root of microSD.The elements are;  
 * Key:"interval"
 ** It has a number object. It describes interval of timelapse by microsecond.
-*Key:"type"
-**It has a string object. It describes the what trigger is enabled.
+* Key:"type"
+** It has a string object. It describes the what trigger is enabled.
 
-*An example of 'triggered by interval & PIR, and capturing each 1sec'
+* An example of 'triggered by interval & PIR, and capturing each 1sec'
     `{`
     `  {"interval":1000000}`
     `  {"type":"both"}`
