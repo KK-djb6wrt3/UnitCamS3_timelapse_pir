@@ -19,8 +19,8 @@ You must place 'Pref.json' into root of microSD.The elements are;
 
 * An example of 'triggered by interval & PIR, and capturing each 1sec'
 	{
-	  {"interval":1000000}
-	  {"type":"both"}
+		{"interval":1000000}
+		{"type":"both"}
 	}
 
 # License
